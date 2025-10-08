@@ -1,4 +1,4 @@
-pip install torch torchvision torchaudio
+!pip install torch torchvision torchaudio
 
 import streamlit as st
 import torch
@@ -154,5 +154,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
