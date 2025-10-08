@@ -1,6 +1,5 @@
 
 
-!pip install streamlit
 import streamlit as st
 import torch
 import sentencepiece as spm
@@ -153,4 +152,5 @@ def main():
             st.warning("Please enter some Urdu text.")
 
 if __name__ == "__main__":
+
     main()
